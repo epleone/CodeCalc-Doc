@@ -1,4 +1,6 @@
-# 时间计算
+# 时间
+
+## 时间计算
 
 时间计算的运算符是`#`运算符，完整的用法是:
 
@@ -21,16 +23,18 @@
 > `#(表达式)y(表达式)m(表达式)w(表达式)d(表达式)h(表达式)mm(表达式)s(表达式)ms`
 
 其中:
-| 单位 | 完整写法 | 简写 | 其他 |
-| --- | --- | --- | --- |
-| 年 | years | y | year |
-| 月 | months | m | month |
-| 周 | weeks | w | week |
-| 天 | days | d | day |
-| 小时 | hours | h | hour |
-| 分钟 | minutes | mm | minute |
-| 秒 | seconds | s | second |
-| 毫秒 | milliseconds | ms | millisecond |
+
+
+| 单位  |     完整写法     | 简写  |     其他      |
+| --- | :----------: | :-: | :---------: |
+| 年   |    years     |  y  |    year     |
+| 月   |    months    |  m  |    month    |
+| 周   |    weeks     |  w  |    week     |
+| 天   |     days     |  d  |     day     |
+| 小时  |    hours     |  h  |    hour     |
+| 分钟  |   minutes    | mm  |   minute    |
+| 秒   |   seconds    |  s  |   second    |
+| 毫秒  | milliseconds | ms  | millisecond |
 
 
 - 表达式是可以选的, 不用写完整
@@ -83,7 +87,7 @@
 
 ```
 
-# 时间转换
+## 时间转换
 
 > [!tips] 年和月不能转化为毫秒，因为它们是不可精确计算的。
 

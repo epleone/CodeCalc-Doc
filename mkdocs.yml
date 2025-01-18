@@ -19,7 +19,7 @@ theme:
     palette: 
       - scheme: default
         primary: deep purple
-        accent: purple
+        accent: deep purple
         toggle:
           icon: material/brightness-7 
           name: Switch to dark mode
