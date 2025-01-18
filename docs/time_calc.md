@@ -88,7 +88,7 @@
 
 示例：
 
-![[image20250118150055.png]]{ width="50%"}
+![[image20250118150055.png]]{align=right width="50%"}
 
 
 ```js
@@ -141,10 +141,10 @@
 - `#(时间) > #ms` : 不支持，因为这是默认显示格式
 
 
-![[image20250118143657.png]]{ width="50%"}
+![[image20250118143657.png]]{align=left width="50%"}
 
 
-![[image20250118143813.png]]{ width="50%"}
+![[image20250118143813.png]]{align=right width="50%"}
 
 
 ``` js
