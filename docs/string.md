@@ -40,3 +40,6 @@ b.upper()   // 输出: "WORLD"
 
 a + b       // 输出: "helloworld"
 ```
+
+
+![[image20250118233135.png]] { width="50%"}
