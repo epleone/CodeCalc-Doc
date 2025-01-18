@@ -1,14 +1,20 @@
-site_name: CodeCalc 文档
+---
+hide:
+  - navigation
+  - toc
+---
+
+site_name: CodeCalc文档
 
 # Page tree
 nav:
   - 说明: index.md
   - 运算符: operator.md
-  - 进制运算: radix.md
+  - 进制运算: radix_arithmetic.md
   - 数学函数: function.md
   - 字符串: string.md
-  - 时间计算: time.md
-  - 日期与时间戳: date.md
+  - 时间计算: time_calc.md
+  - 日期与时间戳: date_timestamp.md
 
 
 theme:
@@ -33,8 +39,9 @@ theme:
 
 
     features:
-    - toc.integrate
+    # - toc.integrate
     - navigation.tabs
+    - navigation.tabs.sticky
     # - content.tabs.link
 
 font: # 字体
