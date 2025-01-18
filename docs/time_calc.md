@@ -143,14 +143,9 @@
 - `#(时间) > #ms` : 不支持，因为这是默认显示格式
 
 
-<figure markdown="span">
-
-![[image20250118143657.png]]{align=left width="49%"}
-
 ![[image20250118143813.png]]{align=right width="49%"}
 
-</figure>
-
+![[image20250118143657.png]]{width="49%"}
 
 
 
