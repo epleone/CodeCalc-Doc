@@ -34,9 +34,9 @@ theme:
 
     features:
     - toc.integrate
-    - navigation.tabs
-    - navigation.tabs.sticky
     - navigation.top
+    - navigation.tabs
+    # - navigation.tabs.sticky
     # - content.tabs.link
 
 font: # 字体
