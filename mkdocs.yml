@@ -1,9 +1,3 @@
----
-hide:
-  - navigation
-  - toc
----
-
 site_name: CodeCalc文档
 
 # Page tree
@@ -39,9 +33,9 @@ theme:
 
 
     features:
-    # - toc.integrate
+    - toc.integrate
     - navigation.tabs
-    - navigation.tabs.sticky
+    # - navigation.tabs.sticky
     # - content.tabs.link
 
 font: # 字体
