@@ -16,6 +16,10 @@ theme:
     logo: logo.png
     favicon: logo.png
 
+    font:
+      text: Noto Serif Simplified Chinese
+      code: Roboto Mono
+
     palette: 
       - scheme: default
         primary: deep purple
@@ -39,17 +43,12 @@ theme:
     # - navigation.tabs.sticky
     # - content.tabs.link
 
-font: # 字体
-    text: Noto Serif Simplified Chinese
-    code: Roboto Mono
-
 # Extensions
 markdown_extensions:
   - footnotes
   - attr_list
   - md_in_html
   - pymdownx.blocks.caption
-  - glightbox
   - pymdownx.arithmatex:
       generic: true
   # - pymdownx.magiclink
@@ -84,6 +83,7 @@ plugins:
   - content-tabs
   - roamlinks
   - tags
+  - glightbox
 
 
 extra_javascript:
