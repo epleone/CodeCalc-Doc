@@ -144,13 +144,10 @@
 
 
 
-<div class="grid" markdown>
-
 ![[image20250118143657.png]]{align=left width="46%"}
 
-![[image20250118143813.png]]{align=right width="46%"}
 
-</div>
+![[image20250118143813.png]]{align=right width="46%"}
 
 
 ``` js
