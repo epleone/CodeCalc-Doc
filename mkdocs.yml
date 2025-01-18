@@ -2,11 +2,11 @@ site_name: CodeCalc文档
 
 # Page tree
 nav:
-  - 说明: index.md
+  - Home: index.md
   - 运算符: operator.md
-  - 进制运算: radix_arithmetic.md
-  - 数学函数: function.md
+  - 函数: function.md
   - 字符串: string.md
+  - 进制运算: radix_arithmetic.md
   - 时间计算: time_calc.md
   - 日期与时间戳: date_timestamp.md
 
