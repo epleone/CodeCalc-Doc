@@ -5,10 +5,6 @@ theme:
 
     logo: logo.png
 
-    palette:
-      primary: deep purple
-      accent: teal
-
     features:
     - toc.integrate
     # - content.tabs.link
@@ -16,8 +12,8 @@ theme:
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: teal
-      accent: indigo
+      primary: indigo
+      accent: deep purple
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
@@ -32,7 +28,7 @@ theme:
         name: Switch to light mode
 
 font: # 字体
-    text: Roboto
+    text: Noto Serif Simplified Chinese
     code: Roboto Mono
 
 # Extensions
