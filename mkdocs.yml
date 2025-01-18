@@ -1,5 +1,16 @@
 site_name: CodeCalc 文档
 
+# Page tree
+nav:
+  - 使用说明: index.md
+  - 运算符: index.md
+  - 进制运算: index.md
+  - 数学函数: index.md
+  - 字符串: index.md
+  - 时间计算: index.md
+  - 日期与时间戳: index.md
+
+
 theme:
     name: 'material'
 
