@@ -6,24 +6,15 @@
 
 `#(..)years(..)months(..)weeks(..)days(..)hours(..)minutes(..)seconds(..)milliseconds`
 
+<br/>
+
 支持简写时间单位, 完整的简写形式：
 
 `#(..)y(..)m(..)w(..)d(..)h(..)mm(..)s(..)ms`
 
-> [!warning]  `m`表示月份， `mm` 表示分钟
-
-
-
-对于`时分秒`，还支持另一种写法 `#HH:mm:ss`:
-
-`#HH:mm:ss` 表示HH小时mm分钟ss秒, 等价于 `#(h)hours(m)minutes(s)seconds`
-
-`#HH:mm` 表示HH小时mm分钟, 等价于 `#(h)hours(m)minutes`   
-
-
 <br/>
 
-其中:
+
 
 | 单位  |     完整写法     | 简写  |    其他形式     |
 | --- | :----------: | :-: | :---------: |
@@ -36,14 +27,37 @@
 | 秒   |   seconds    |  s  |   second    |
 | 毫秒  | milliseconds | ms  | millisecond |
 
+
+<br/>
+> [!warning]  `m`表示月份， `mm` 表示分钟
+
+<br/>
+
+对于`时分秒`，还支持另一种常见的写法 `#HH:mm:ss`:
+
+- `#HH:mm:ss` 
+
+	表示HH小时mm分钟ss秒, 等价于 `#(h)hours(m)minutes(s)seconds`
+
+- `#HH:mm` 
+
+	表示HH小时mm分钟, 等价于 `#(h)hours(m)minutes`   
+
+
+
+> [!warning]  `#HH:mm:ss` 不支持括号, 所以也不支持括号内的表达式
+
+<br/>
+
 **表达式是可以选的, 不用写完整**
 
-`#1year`  `#2m3weeks`  `#2w1d3s`   
-`#(1+2)d5h3ms`
-`#(min(10, 9+1.5) - 1)days3ms`
+- `#1year`  
+- `#2m3weeks`  
+- `#2w1d3s`   
+- `#(1+2)d5h3ms`
+- `#(min(10, 9+1.5) - 1)days3ms`
 
-上面的写法很灵活
-这些都是合法的
+上面的写法很灵活, 都是合法的
 
 **当括号内的表达式是数字时，括号可以省略。**
 
@@ -65,9 +79,9 @@
 
 `#时间 ± #时间 = #时间`
 
-`#1y2m3d + #3w5h = #1y2m3w3d5h`
+ - `#1y2m3d + #3w5h = #1y2m3w3d5h`
 
-`#10:10:10 - #10:10 = #0:0:10 `
+ - `#10:10:10 - #10:10 = #0:0:10 `
 
 
 <br/>
