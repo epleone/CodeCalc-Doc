@@ -2,13 +2,13 @@ site_name: CodeCalc 文档
 
 # Page tree
 nav:
-  - Home: index.md
-  - Operator: operator.md
-  - Radix: radix.md
-  - Function: function.md
-  - String: string.md
-  - Time: time.md
-  - Date: date.md
+  - 说明: index.md
+  - 运算符: operator.md
+  - 进制运算: radix.md
+  - 数学函数: function.md
+  - 字符串: string.md
+  - 时间计算: time.md
+  - 日期与时间戳: date.md
 
 
 theme:
