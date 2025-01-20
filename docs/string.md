@@ -1,6 +1,4 @@
-
 # 字符串
-
 
 - `str(x)` : 将输入的值转换为字符串
 - `num(x)` : 将输入的值转换为数字
@@ -9,6 +7,9 @@
 - `length(x)` : 获取字符串的长度, 支持属性调用 ".length"
 - `base64(x)` : 对字符串进行Base64编码, 支持属性调用 ".base64"
 - `unbase64(x)` : 对字符串进行Base64解码, 支持属性调用 ".unbase64"
+
+
+![[image20250118233135.png]]{align=right width="50%"}
 
 
 ``` js
@@ -41,5 +42,3 @@ b.upper()   // 输出: "WORLD"
 a + b       // 输出: "helloworld"
 ```
 
-
-![[image20250118233135.png]] { width="50%"}
